@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_ns_schd_scr_restlet_call_ss">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>NetSuite Scheduled Script Restlet Call</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/NetSuite Scheduled Script Restlet Call/NetSuiteScheduledScriptRestletCall_SS.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>NetSuite Scheduled Script Restlet Call</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-12-25</startdate>
+          <starttime>16:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>
